@@ -1,9 +1,37 @@
 # EKF
 1. In tools.cpp, fill in the functions that calculate root mean squared error (RMSE) and the Jacobian matrix.
+* in tools.cpp , I filled the functions to Calculate the RMSE and jacobian matrix of measurement update.
 
 2. Fill in the code in FusionEKF.cpp. You'll need to initialize the Kalman Filter, prepare the Q and F matrices for the prediction step, and call the radar and lidar update functions.
+* Based on udacity provided code, I initialize the kalmanfitler, set the Q and F matrix based on course,and cal the radar and lidar update functions.
+
 3. In kalman_filter.cpp, fill out the Predict(), Update(), and UpdateEKF() functions.
+* Based on the equations of kalmanfilter and extended kalman filter , the code of prediction step, update step , and update of ekf step are added.
+
+* Simulation result is showed as below figure. 
+RMSE: 
+X: 0.0973
+Y: 0.0855
+VX: 0.4513
+VY: 0.4399
+
 ![EKF result](https://github.com/Fred159/EKF/blob/master/EKF%20Simulator%20result.png)
+
+
+Reference 
+1. darienmt
+2. Udacity course
+3. Docker
+
+Resource
+1. Docker images issue
+https://medium.com/@flaaud159/udacity-self-driving-car-term2-extended-kalman-filter-project-environment-setting-6861f81cebad
+2. Docker based Project utility(Co-work relationship gragh)
+* Visual studio 2017
+* Docker for windows
+* github for windows
+
+
 
 
 # Udacity tutorial
