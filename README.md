@@ -1,5 +1,6 @@
 # EKF
 1. In tools.cpp, fill in the functions that calculate root mean squared error (RMSE) and the Jacobian matrix.
+
 2. Fill in the code in FusionEKF.cpp. You'll need to initialize the Kalman Filter, prepare the Q and F matrices for the prediction step, and call the radar and lidar update functions.
 3. In kalman_filter.cpp, fill out the Predict(), Update(), and UpdateEKF() functions.
 
