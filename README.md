@@ -30,7 +30,7 @@ https://medium.com/@flaaud159/udacity-self-driving-car-term2-extended-kalman-fil
 * Visual studio 2017
 * Docker for windows
 * github for windows
-
+![Docker,VS,Github Co-work relationship gragh](https://github.com/Fred159/EKF/blob/master/Docker%20VS%20git%20co%20work.png)
 
 
 
